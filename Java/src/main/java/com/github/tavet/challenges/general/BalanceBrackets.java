@@ -3,7 +3,7 @@ package com.github.tavet.challenges.general;
 import java.util.Stack;
 
 /**
- * https://www.hackerrank.com/challenges/ctci-bfs-shortest-reach/problem
+ * https://www.hackerrank.com/challenges/balanced-brackets/problem
  */
 
 public class BalanceBrackets {
