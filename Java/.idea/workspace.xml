@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b8c493e-4dd2-468a-b448-6e39ac26c647" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/tavet/challenges/general/BalanceBrackets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/tavet/challenges/general/BalanceBracketsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaChallenges/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaChallenges.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/tavet/challenges/ArraySignProduct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/tavet/challenges/FindMissing.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/tavet/challenges/general/FindRunningMedia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/tavet/challenges/general/FindRunningMediaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +42,9 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="JUnit.BalanceBracketsTest">
+  <component name="RunManager" selected="JUnit.FindRunningMediaTest.testCase2">
     <configuration name="BalanceBracketsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaChallenges" />
       <extension name="coverage">
@@ -86,8 +76,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FindRunningMediaTest.testCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaChallenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.tavet.challenges.general.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.tavet.challenges.general" />
+      <option name="MAIN_CLASS_NAME" value="com.github.tavet.challenges.general.FindRunningMediaTest" />
+      <option name="METHOD_NAME" value="testCase1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindRunningMediaTest.testCase2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaChallenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.tavet.challenges.general.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.tavet.challenges.general" />
+      <option name="MAIN_CLASS_NAME" value="com.github.tavet.challenges.general.FindRunningMediaTest" />
+      <option name="METHOD_NAME" value="testCase2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FindRunningMediaTest.testCase2" />
+        <item itemvalue="JUnit.FindRunningMediaTest.testCase1" />
         <item itemvalue="JUnit.BalanceBracketsTest" />
         <item itemvalue="JUnit.BalanceBracketsTest.testCase1" />
       </list>
@@ -101,7 +125,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649635566701</updated>
-      <workItem from="1649635693238" duration="6069000" />
+      <workItem from="1649635693238" duration="9266000" />
     </task>
     <servers />
   </component>
