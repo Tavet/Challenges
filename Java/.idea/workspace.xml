@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b8c493e-4dd2-468a-b448-6e39ac26c647" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/tavet/challenges/general/FindRunningMedia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/tavet/challenges/general/FindRunningMediaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/tavet/challenges/general/FindRunningMedia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/tavet/challenges/general/FindRunningMedia.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="JUnit.FindRunningMediaTest.testCase2">
+  <component name="RunManager" selected="JUnit.FindRunningMediaTest">
     <configuration name="BalanceBracketsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaChallenges" />
       <extension name="coverage">
@@ -72,6 +71,21 @@
       <option name="MAIN_CLASS_NAME" value="com.github.tavet.challenges.general.BalanceBracketsTest" />
       <option name="METHOD_NAME" value="testCase1" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindRunningMediaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaChallenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.tavet.challenges.general.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.tavet.challenges.general" />
+      <option name="MAIN_CLASS_NAME" value="com.github.tavet.challenges.general.FindRunningMediaTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,10 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FindRunningMediaTest.testCase2" />
+        <item itemvalue="JUnit.FindRunningMediaTest" />
         <item itemvalue="JUnit.FindRunningMediaTest.testCase1" />
-        <item itemvalue="JUnit.BalanceBracketsTest" />
         <item itemvalue="JUnit.BalanceBracketsTest.testCase1" />
+        <item itemvalue="JUnit.FindRunningMediaTest.testCase2" />
+        <item itemvalue="JUnit.BalanceBracketsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +140,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649635566701</updated>
-      <workItem from="1649635693238" duration="9266000" />
+      <workItem from="1649635693238" duration="14453000" />
     </task>
     <servers />
   </component>
@@ -139,6 +154,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/github/tavet/challenges/general/BalanceBrackets.java</url>
           <line>12</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/tavet/challenges/general/FindRunningMedia.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/tavet/challenges/general/FindRunningMedia.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/tavet/challenges/general/FindRunningMedia.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
