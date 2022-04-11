@@ -1,4 +1,4 @@
-package com.github.tavet.challenges;
+package challenges.general;
 
 /*
 You are given an array of positive numbers from 1 to n, such that all numbers from 1

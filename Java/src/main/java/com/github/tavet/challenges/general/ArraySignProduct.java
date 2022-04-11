@@ -1,4 +1,4 @@
-package com.github.tavet.challenges;
+package com.github.tavet.challenges.general;
 
 import java.util.OptionalInt;
 import java.util.stream.IntStream;
