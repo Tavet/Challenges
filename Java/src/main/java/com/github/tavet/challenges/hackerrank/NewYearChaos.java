@@ -12,14 +12,20 @@ public class NewYearChaos {
 
         for (int i = 0; i < q.size(); i++) {
             int currentPosition = i + 1;
-            
-            if (q.get(i) == currentPosition) {
-                continue;
+
+            if (q.get(i) <= currentPosition) {
+                if (i < q.size() - 1) {
+                    if (q.get(i) < q.get(i + 1))
+                        continue;
+                } else {
+                    continue;
+                }
             }
+
             int bribesSize = q.get(i) - currentPosition;
+            bribesSize = bribesSize < 0 ? bribesSize * -1 : bribesSize; // Convert to positive if it's negative
             if (bribesSize <= 2) {
                 bribes += bribesSize;
-                i += bribesSize; // Skip loop the numbers that were swapped
             } else {
                 bribes = 0;
                 break;

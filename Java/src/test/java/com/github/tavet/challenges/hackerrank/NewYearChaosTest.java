@@ -31,4 +31,30 @@ public class NewYearChaosTest {
 
         assertEquals(expected, newYearChaos.minimumBribes(input));
     }
+
+    @Test
+    void testCase3() {
+        final List<Integer> input = Arrays.asList(1, 2, 5, 3, 4, 7, 8, 6);
+        final String expected = "4";
+
+        assertEquals(expected, newYearChaos.minimumBribes(input));
+    }
+
+    @Test
+    void testCase4() {
+        // 1, 2, 5, 3, 7, 8, 6, 4
+        // 1, 2, 3, 4, 5, 6, 7, 8
+        final List<Integer> input = Arrays.asList(1, 2, 5, 3, 7, 8, 6, 4);
+        final String expected = "7";
+
+        assertEquals(expected, newYearChaos.minimumBribes(input));
+    }
+
+    @Test
+    void testCase5() {
+        final List<Integer> input = Arrays.asList(3, 2, 1, 4, 6, 5, 8, 7, 9, 12, 11, 10);
+        final String expected = "6";
+
+        assertEquals(expected, newYearChaos.minimumBribes(input));
+    }
 }
