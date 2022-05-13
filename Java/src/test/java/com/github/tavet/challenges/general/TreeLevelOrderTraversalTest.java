@@ -1,7 +1,6 @@
 package com.github.tavet.challenges.general;
 
 import com.github.tavet.utility.Node;
-import com.github.tavet.utility.TreePrinter;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
