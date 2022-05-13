@@ -23,4 +23,12 @@ public class NewYearChaosTest {
 
         assertEquals(expected, newYearChaos.minimumBribes(input));
     }
+
+    @Test
+    void testCase2() {
+        final List<Integer> input = Arrays.asList(2, 5, 1, 3, 4);
+        final String expected = "Too chaotic";
+
+        assertEquals(expected, newYearChaos.minimumBribes(input));
+    }
 }
