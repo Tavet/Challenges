@@ -62,4 +62,24 @@ public class AppendAndDeleteTest {
 
         assertEquals(expected, appendAndDelete.appendAndDelete(s, t, k));
     }
+
+    @Test
+    void testCase6() {
+        final String expected = "No";
+        String s = "abcd";
+        String t = "abcdert";
+        int k = 10;
+
+        assertEquals(expected, appendAndDelete.appendAndDelete(s, t, k));
+    }
+
+    @Test
+    void testCase7() {
+        final String expected = "Yes";
+        String s = "abcdef";
+        String t = "fedcba";
+        int k = 15;
+
+        assertEquals(expected, appendAndDelete.appendAndDelete(s, t, k));
+    }
 }
