@@ -66,7 +66,7 @@ public class AppendAndDeleteTest {
     @Test
     void testCase6() {
         final String expected = "No";
-        String s = "abcd";
+        String s = "abce";
         String t = "abcdert";
         int k = 10;
 
@@ -79,6 +79,46 @@ public class AppendAndDeleteTest {
         String s = "abcdef";
         String t = "fedcba";
         int k = 15;
+
+        assertEquals(expected, appendAndDelete.appendAndDelete(s, t, k));
+    }
+
+    @Test
+    void testCase8() {
+        final String expected = "Yes";
+        String s = "aaa";
+        String t = "a";
+        int k = 5;
+
+        assertEquals(expected, appendAndDelete.appendAndDelete(s, t, k));
+    }
+
+    @Test
+    void testCase9() {
+        final String expected = "No";
+        String s = "y";
+        String t = "yu";
+        int k = 2;
+
+        assertEquals(expected, appendAndDelete.appendAndDelete(s, t, k));
+    }
+
+    @Test
+    void testCase10() {
+        final String expected = "Yes";
+        String s = "zzzzz";
+        String t = "zzzzzzz";
+        int k = 4;
+
+        assertEquals(expected, appendAndDelete.appendAndDelete(s, t, k));
+    }
+
+    @Test
+    void testCase11() {
+        final String expected = "No";
+        String s = "qwerasdf";
+        String t = "qwerbsdf";
+        int k = 6;
 
         assertEquals(expected, appendAndDelete.appendAndDelete(s, t, k));
     }

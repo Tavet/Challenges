@@ -10,15 +10,13 @@ public class AppendAndDelete {
             return "Yes";
         } else if (Math.abs(s.length() - t.length()) > k) { // If the difference in characters in S-T is greater than K
             return "No";
+        } else if ((s.charAt(0) != t.charAt(0) && k > s.length() + t.length())) { // if k > characters of s + t, and the first element is different then it can be deleted
+            return "Yes";
         }
 
         int moves = 0;
 
         for (int i = 0; i < Math.max(s.length(), t.length()); i++) {
-            if (moves > k) {
-                return "No";
-            }
-
             if (i >= s.length()) {
                 moves += 1;
             } else if ((s.length() > t.length() && i > t.length() - 1)) {
@@ -30,6 +28,17 @@ public class AppendAndDelete {
             }
         }
 
-        return moves == k || moves < k && s.charAt(0) != t.charAt(0) ? "Yes" : "No";
+        // If moves < k, check if the remaining can be deleted
+        if (moves > k) {
+            return "No";
+        } else if ((k - moves) % 2 == 0 || // if the left moves are even - it can be delete - add or add - delete and
+                                           // get the result
+                t.length() - (k - moves) % 2 == 0 // it means it can delete - delete - delete ... if it's empty and
+                                                  // then perform an "add"
+        ) {
+            return "Yes";
+        } else {
+            return "No";
+        }
     }
 }
