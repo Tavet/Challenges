@@ -18,7 +18,8 @@ public class AppendAndDelete {
         if (s.length() <= t.length()) {
             for (int i = 0; i < s.length(); i++) { // loop through S which has less elements
                 if (s.charAt(i) != t.charAt(i)) {
-                    differenceInChars += (t.length() - i) * 2;
+                    int leftCharacters = t.length() - s.length();
+                    differenceInChars += ((s.length() - i) * 2) + leftCharacters;
                     differenceStartsAt = i;
                     break;
                 }
@@ -27,7 +28,8 @@ public class AppendAndDelete {
             differenceInChars = s.length() - t.length(); // difference starts with the left characters in S
             for (int i = 0; i < t.length(); i++) { // loop through T which has less elements
                 if (s.charAt(i) != t.charAt(i)) {
-                    differenceInChars += (t.length() - i) * 2; // multiply by 2 because the operations must be done twice: remove and add
+                    differenceInChars += (t.length() - i) * 2; // multiply by 2 because the operations must be done
+                                                               // twice: remove and add
                     differenceStartsAt = i;
                     break; // If the character is different, it means the next elements must be deleted in
                            // order to come to the current character,
@@ -42,6 +44,13 @@ public class AppendAndDelete {
             StringBuilder newS = new StringBuilder(s);
             if (s.length() <= t.length()) {
 
+                for (int i = 0; i < t.length(); i++) {
+                    if (i < s.length() && i >= differenceStartsAt) {
+                        newS.setCharAt(i, t.charAt(i));
+                    } else if (i >= s.length()) {
+                        newS.append(t.charAt(i));
+                    }
+                }
             } else {
                 for (int i = 0; i < s.length(); i++) {
                     if (i < t.length() && i >= differenceStartsAt) {

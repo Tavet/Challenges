@@ -19,7 +19,7 @@ public class AppendAndDeleteTest {
         String s = "ashley";
         String t = "ash";
         int k = 2;
-        
+
         assertEquals(expected, appendAndDelete.appendAndDelete(s, t, k));
     }
 
@@ -29,7 +29,7 @@ public class AppendAndDeleteTest {
         String s = "aba";
         String t = "aba";
         int k = 7;
-        
+
         assertEquals(expected, appendAndDelete.appendAndDelete(s, t, k));
     }
 
@@ -39,7 +39,27 @@ public class AppendAndDeleteTest {
         String s = "hackerhappy";
         String t = "hackerrank";
         int k = 9;
-        
+
+        assertEquals(expected, appendAndDelete.appendAndDelete(s, t, k));
+    }
+
+    @Test
+    void testCase4() {
+        final String expected = "Yes";
+        String s = "hackerrank";
+        String t = "hackerhappy";
+        int k = 9;
+
+        assertEquals(expected, appendAndDelete.appendAndDelete(s, t, k));
+    }
+
+    @Test
+    void testCase5() {
+        final String expected = "Yes";
+        String s = "uoiauwrebgiwrhgiuawheirhwebvjforidkslweufgrhvjqasw";
+        String t = "vgftrheydkoslwezxcvdsqjkfhrydjwvogfheksockelsnbkeq";
+        int k = 100;
+
         assertEquals(expected, appendAndDelete.appendAndDelete(s, t, k));
     }
 }
