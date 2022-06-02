@@ -11,11 +11,12 @@ public class GamingArray {
 
     public String gamingArray(List<Integer> arr) {
         int moves = 0;
-        int bigger = arr.get(0);
+        int bigger = 0;
 
         for (int i = 0; i < arr.size(); i++) {
-            if (arr.get(i) >= bigger) {
+            if (arr.get(i) > bigger) {
                 moves++;
+                bigger = arr.get(i);
             }
         }
 
